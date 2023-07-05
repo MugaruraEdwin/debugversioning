@@ -1,0 +1,71 @@
+What is debugging?
+Debugging is finding and solving errors in code.
+
+What is a bug?
+
+- A Bug a problem in software / hardware.
+- Error in code that prevents us from achieving the desired result.
+- Glitch that prevents a program from achieving the desired output.
+
+
+
+ Why debug?
+
+ - To solve quick problems
+ - To achieve the desired result
+ - To save resources i.e. time and money
+ - Helps developers improve their levels of productivity i.e. efficiency
+ 
+Types of Bugs
+
+ - Syntax Errors
+   Errors that occur when a computer program had incorrectly typed a statement i.e. doesn't follow the syntactical rules I.e mistyping, mispelling, incorrect use of variables, functions and statements.
+
+ - Logic Errors
+   Occurs when the steps taken to perform the task correctly are not well done e.g. infinite loop
+
+ -Semantic Errors
+  Occur due to the improper use of programming statements
+
+ -Runtime Errors: Occurs when a program you are using crashes or produces wrong output ( happens after running a program)  i.e. division by zero, undefined values, adding a string to an integer, division by a null value.
+  
+
+ - Design Bugs: This is a bug that is comes in as a fault during the design carried from that to implementation. 
+
+   OR
+   
+   Design bug is one caused by poor or inadequate design decisions e.g. designing bad user interfaces, wrong datatypes
+
+How do we debug?
+
+5Ps - Prior Planning Prevents Poor Performance
+
+Debugging Principles
+
+- Bugs caught early, after you've made them are pretty easy to fix i.e. because details are fresh in your mind and you know exactly where to look.
+- Once bugs escape they are very hard to find I.e. because you now have a larger code base to search from, it makes it hard to find since you have a lot on your mind, with many lines to read through.
+
+The Debugging Cycle.( CTCD)
+
+1. Coding: Point of writing code to accomplish a desired result.
+2. Testing: Test if the code works (checking code functionality)/ achieves desired output.
+3. If the code works as desired, then Continue coding.
+4. If the code is not working, we then debug.
+5. Recycle through the steps.
+
+Difference between Debugging and Testing
+
+Debugging is finding and solving errors in code while testing is what do we need to do break my code i.e. breaking your code for if incase scenarios. 
+
+Steps for Debugging
+1. Plan your attack
+2. Backup your files ( can be interchanged with step1) i.e. using git to keep track of changes
+3. Isolate the code(block) that could have the error .e commenting it out
+4. Find the erroneous code(line(s)) i.e. the issue/glitch in the code
+5. Fix the error, don't patch it.
+6. Test the fix.
+7. Look for similar bugs.
+
+
+
+
